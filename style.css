@@ -168,12 +168,65 @@ nav {
 /* TEXT STACK */
 
 .language__img {
-    widtH: 100%;
+    width: 100%;
     max-width: 100px;
     transition: all 300ms  ease; 
 }
 
-.language__img:hover {
+.language__img--slightsmall {
+    width: 85%;
+}
+
+.language__img--bumpup {
+    padding-bottom: 10px;
+}
+
+.HTML__orange {
+    color:rgb(233, 110, 16)
+}
+
+.CSS__blue {
+    color:rgb(58, 58, 176)
+}
+
+.JS__yellow {
+    color:#d5c000
+}
+
+.react__lightblue {
+    color: rgb(6, 92, 120)
+}
+
+.java__darkred {
+    color:rgb(141, 20, 32)
+}
+
+.java__darkblue {
+    color:rgb(6, 92, 120)
+}
+
+
+.python__lightyellow {
+    color: #d5c000
+}
+
+.python__lightblue {
+    color: rgb(6, 92, 120)
+}
+
+.language__text--padding {
+    padding-right: 22px;
+}
+
+.language__text--paddinglarge {
+    padding-right: 42px;
+}
+
+.vim__green {
+    color: rgb(6, 103, 6);
+}
+
+.language:hover .language__img {
     filter: brightness(80%);
     opacity: 0.85;
     transform: scale(90%);
@@ -181,6 +234,9 @@ nav {
 
 .language {
     width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .language__img--wrapper {
@@ -197,4 +253,15 @@ nav {
 
 .language__name {
     position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 300ms ease;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+}
+
+.language:hover .language__name {
+    transform: scale(1);
+    opacity: 1;
 }
