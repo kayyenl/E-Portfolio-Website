@@ -266,3 +266,13 @@ nav {
     transform: scale(1);
     opacity: 1;
 }
+
+/* PROJECTS */
+
+.project__image {
+    width: 100%;
+}
+
+.project__wrapper {
+    
+}
