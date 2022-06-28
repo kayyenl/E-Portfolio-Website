@@ -24,6 +24,11 @@ li {
     list-style: none;
 }
 
+.flex-1 {
+    display: flex;
+    flex: 1;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -65,4 +70,12 @@ nav {
     font-weight: 700;
     color: #6030b1;
     margin: 0 12px;
+}
+
+/* ABOUT ME */
+
+#aboutme {
+    min-height: 100vh;
+    font-display: auto;
+    flex-direction: column;
 }
