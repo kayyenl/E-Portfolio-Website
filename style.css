@@ -45,6 +45,18 @@ li {
     color: #6030b1
 }
 
+section:nth-child(even) {
+    background-color:rgb(235, 232, 234)
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -151,4 +163,32 @@ nav {
 
 .aboutme__img {
     width: 100%;
+}
+
+/* TEXT STACK */
+
+.language__img {
+    widtH: 100%;
+    max-width: 100px;
+}
+
+.language__img:hover {
+    filter: brightness(80%);
+    opacity: 0.85;
+}
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px;
+}
+
+.language__list {
+    display: flex;
+    flex-wrap: wrap;
 }
