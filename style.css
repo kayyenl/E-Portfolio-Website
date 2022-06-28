@@ -39,6 +39,7 @@ li {
 .row {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .text--purple {
@@ -61,7 +62,7 @@ section:nth-child(even) {
 
 nav {
     height: 100px;
-    max-width: 1000px;
+    max-width: 1400px;
     width: 100%;
     padding: 0px 28px;
     margin: 0 auto;
