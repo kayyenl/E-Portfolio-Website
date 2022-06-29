@@ -192,27 +192,31 @@ nav {
 .aboutme__info--title {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 24px;
-    animation: fade-up 800ms;
+    margin-bottom: 0px;
+    animation: fade-up 800ms 600ms backwards;
 }
 
 .aboutme__info--para {
     font-size: 20px;
     margin-bottom: 28px;
-    animation: fade-up 800ms;
+    animation: fade-up 800ms 1000ms backwards;
 }
 
 .aboutme__link {
     font-size: 20px;
     color: #242424;
     text-decoration: none;
-    padding: 0 16px;
-    animation: fade-up 800ms;
+    padding: 0 24px;
+    margin-bottom: 30px;
+}
+
+.aboutme__links {
+    animation: fade-up 800ms 1200ms backwards;
 }
 
 .aboutme__info--penguin {
     max-height: 100px;
-    animation: fade-up 800ms;
+    animation: fade-up 800ms 800ms backwards;
 }
 
 @keyframes fade-up {
@@ -248,6 +252,16 @@ nav {
 
 .aboutme__img {
     width: 100%;
+    animation: largeimage--animation 800ms 1200ms backwards;
+}
+
+@keyframes largeimage--animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+   }
 }
 
 /* TEXT STACK */
