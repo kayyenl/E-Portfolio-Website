@@ -311,6 +311,11 @@ nav {
     transform: scale(1.1);
 }
 
+.project:hover .project__description {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
 .project__list {
     padding: 32px;
 }
@@ -323,9 +328,11 @@ nav {
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(-50%);
+    transform: translateY(70%);
     max-width: 550px;
     z-index: 3;
+    opacity: 0;
+    transition: all 450ms ease;
 }
 
 .project__description--title {
@@ -345,6 +352,7 @@ nav {
 
 .target__description--link {
     font-size: 20px;
+    text-decoration: none;
 }
 
 .project__description--title,
