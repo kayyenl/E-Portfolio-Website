@@ -553,23 +553,27 @@ footer {
     }
 
     .project__description {
-        padding-right: 0px;
+        padding: 0px;
+        width: 100%;
+        left: 0;
     }
 
     .project__description--title {
         font-size: 16px;
         text-align: center;
     }
-
+    
     .project__description--subtitle {
         font-size: 12px;
+        text-align: center;
     }
-
+    
     .project__description--para {
         display: none;
     }
-
+    
     .project__description--links {
+        text-align: center;
         display: flex;
         justify-content: center;
         font-size: 10px;
