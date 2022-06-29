@@ -33,6 +33,14 @@ a {
     position: relative;
 }
 
+i {
+    transition: opacity 300ms ease;
+}
+
+i:hover {
+    opacity: 0.7;
+}
+
 li {
     list-style: none;
 }
@@ -240,9 +248,6 @@ nav {
     max-width: 100%;
     max-height: 100%;
 }
-
-
-
 
 .aboutme__img--container {
     flex: 1;
