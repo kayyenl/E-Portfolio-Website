@@ -211,6 +211,7 @@ nav {
 .aboutme__img--container {
     flex: 1;
     align-items: center;
+    padding: 35px;
 }
 
 .aboutme__img {
@@ -535,45 +536,43 @@ footer {
 }
 
 @media (max-width: 480px) {
-    nav {
-        height: 80px;
+    .nav__link:not(:last-child) {
+        display: none;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
-    .aboutme__info--para {
-        font-size: 18px;
-    }
-
-    .aboutme__info--penguin {
-        max-height: 85px;
-    }
-
-    .aboutme__info--title {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .language {
-        width: 33.3%;
-    }
-
-    .project__description {
-        padding-right: 75px;
-    }
-
-    .project__description--title {
-        font-size: 35px;
-    }
-
-    .project__description--subtitle {
+    .personal__logo {
         font-size: 20px;
     }
 
-    .project__description--para {
+    .aboutme__info--penguin {
+        max-height: 70px;
+    }
+
+    .project__description {
+        padding-right: 0px;
+    }
+
+    .project__description--title {
         font-size: 16px;
+        text-align: center;
+    }
+
+    .project__description--subtitle {
+        font-size: 12px;
+    }
+
+    .project__description--para {
+        display: none;
+    }
+
+    .project__description--links {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
     }
 
 }
