@@ -142,8 +142,26 @@ nav {
 }
 
 .aboutme__info--title {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 24px;
 }
+
+.aboutme__info--h1 {
+    display: flex;
+    align-items: center;
+}
+
+.aboutme__info--penguin {
+    max-height: 100px;
+}
+
+.aboutme__info--penguin-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 
 .aboutme__info--para {
     font-size: 20px;
@@ -274,6 +292,11 @@ nav {
 }
 
 .project {
+    padding-bottom: 130px;
+}
+
+.project:last-child {
+    margin-bottom: 40px;
 }
 
 .project__wrapper {
@@ -320,9 +343,6 @@ nav {
     padding: 32px;
 }
 
-.project {
-    padding-bottom: 120px;
-}
 
 .project__description {
     position: absolute;
